@@ -70,7 +70,7 @@
 	
 	[_remoteImage drawInRect: drawingRect
 				   fromRect: imageRect
-				  operation: NSCompositeSourceOver
+				  operation: NSCompositingOperationSourceOver
 				   fraction: 1.0];
 	
 	if (_lastButtonIdentifier == -1) {
